@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoFoods.Web", "SurveyApp\EcoFoods.Web.csproj", "{224CA2F9-AA9C-404C-BA7C-A3D93D8CF4E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F675F76F-561A-4284-9AC3-104AA6CC3342} = {F675F76F-561A-4284-9AC3-104AA6CC3342}
+		{7281C9B6-EE2D-4C33-90B2-58452263D482} = {7281C9B6-EE2D-4C33-90B2-58452263D482}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoFoods.DomainEntities", "EcoFoods.DomainEntities\EcoFoods.DomainEntities.csproj", "{F675F76F-561A-4284-9AC3-104AA6CC3342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoFoods.Infrastructure.DataAccess", "EcoFoods.Infrastructure.DataAccess\EcoFoods.Infrastructure.DataAccess.csproj", "{7281C9B6-EE2D-4C33-90B2-58452263D482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{224CA2F9-AA9C-404C-BA7C-A3D93D8CF4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224CA2F9-AA9C-404C-BA7C-A3D93D8CF4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224CA2F9-AA9C-404C-BA7C-A3D93D8CF4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224CA2F9-AA9C-404C-BA7C-A3D93D8CF4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F675F76F-561A-4284-9AC3-104AA6CC3342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F675F76F-561A-4284-9AC3-104AA6CC3342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F675F76F-561A-4284-9AC3-104AA6CC3342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F675F76F-561A-4284-9AC3-104AA6CC3342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7281C9B6-EE2D-4C33-90B2-58452263D482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7281C9B6-EE2D-4C33-90B2-58452263D482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7281C9B6-EE2D-4C33-90B2-58452263D482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7281C9B6-EE2D-4C33-90B2-58452263D482}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {817BC942-CE7D-447C-9DDC-C8F8047F8EFF}
+	EndGlobalSection
+EndGlobal

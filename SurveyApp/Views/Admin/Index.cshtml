@@ -1,0 +1,61 @@
+﻿@model IEnumerable<EcoFoods.DomainEntities.Product>
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Available Products</h2>
+        </div>
+        <div class="col-6">
+            <div id="PlaceHolderHere"></div>
+            <a class="btn btn-primary" asp-controller="Product" asp-action="Add">Add a product</a>
+        </div>
+    </div>
+</div>
+
+
+
+@if (Model.Count() > 0)
+{
+    <br />
+    <table class="table table-bordered table striped" style="width:100%">
+        <thread>
+            <tr>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Available Quantity</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thread>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td width:"30%">@item.Name</td>
+                    <td width:"30%">@item.Description</td>
+                    <td width:"30%">@item.Price $/Kg</td>
+                    <td width:"30%">@item.Quantity Kg</td>
+                    <td width:"100%">
+                        <a class="btn btn-primary mx-1" asp-controller="Product" asp-action="Update" asp-route-Id="@item.Id">Update</a>
+                        <a class="btn btn-danger mx-1" asp-controller="Product" asp-action="Delete" asp-route-Id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>There are no avalable products at the moment.</p>
+}
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+
+
+
+
+

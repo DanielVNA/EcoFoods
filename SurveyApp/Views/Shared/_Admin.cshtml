@@ -1,0 +1,6 @@
+﻿@inject Microsoft.AspNetCore.Identity.SignInManager<EcoFoods.DomainEntities.ApplicationUser> signInManager
+
+@if (User.IsInRole("Admin"))
+{
+    <a asp-controller="Admin" asp-action="Index" class="btn btn-primary">Admin Section</a>
+}
