@@ -1,0 +1,58 @@
+﻿@model IEnumerable<EcoFoods.DomainEntities.Product>
+
+@if (Model.Count() > 0)
+{
+    <h1> Here you can view all the available products:</h1>
+    <br />
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="SearchResult">
+                <div class="form-group">
+                    <label for="KeyTerm" class="control-label"></label>
+                    <input name="KeyTerm" class="form-control" placeholder="Search by product name or description" />
+                    <span class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Search" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <table class="table table-bordered table striped" style="width:100%">
+        <thread>
+            <tr>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Available Quantity</th>
+            </tr>
+        </thread>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td width:"30%">@item.Name</td>
+                    <td width:"30%">@item.Description</td>
+                    <td width:"30%">@item.Price $/Kg</td>
+                    <td width:"30%">@item.Quantity Kg</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>There are no avalable products at the moment.</p>
+}
+
+
+
+
+
+
+

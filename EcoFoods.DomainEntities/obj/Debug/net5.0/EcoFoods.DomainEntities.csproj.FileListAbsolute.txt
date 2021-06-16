@@ -1,0 +1,12 @@
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\bin\Debug\net5.0\EcoFoods.DomainEntities.deps.json
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\bin\Debug\net5.0\EcoFoods.DomainEntities.dll
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\bin\Debug\net5.0\ref\EcoFoods.DomainEntities.dll
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\bin\Debug\net5.0\EcoFoods.DomainEntities.pdb
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\obj\Debug\net5.0\EcoFoods.DomainEntities.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\obj\Debug\net5.0\EcoFoods.DomainEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\obj\Debug\net5.0\EcoFoods.DomainEntities.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\obj\Debug\net5.0\EcoFoods.DomainEntities.AssemblyInfo.cs
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\obj\Debug\net5.0\EcoFoods.DomainEntities.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\obj\Debug\net5.0\EcoFoods.DomainEntities.dll
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\obj\Debug\net5.0\ref\EcoFoods.DomainEntities.dll
+C:\Users\danie\source\repos\SurveyApp\EcoFoods.DomainEntities\obj\Debug\net5.0\EcoFoods.DomainEntities.pdb

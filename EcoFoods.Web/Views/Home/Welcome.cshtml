@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "EcoFoods - Main Page";
+}
+@inject Microsoft.AspNetCore.Identity.SignInManager<EcoFoods.DomainEntities.ApplicationUser> signInManager 
+
+<div class="text-center">
+    <h1 class="display-4">Welcome, @User.Identity.Name! You may now place an order on our website!</h1>
+    <p asp-controller="Home" asp-action="Welcome">Check out the available products here:</p>
+    <input type="button" value="View All Available Products" onclick="location.href='@Url.Action("Index", "Product")'" />
+</div>

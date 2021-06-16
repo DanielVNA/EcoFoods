@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p asp-controller="Home" asp-action="Welcome">Check out the available products here:</p>
+    <input type="button" value="View All Available Products" onclick="location.href='@Url.Action("ViewProductsNonUser", "Product")'" />
+</div>

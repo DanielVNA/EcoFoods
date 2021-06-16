@@ -1,0 +1,12 @@
+C:\Users\danie\source\repos\SurveyApp\DataAccess\obj\Debug\net5.0\EcoFoods.Infrastructure.DataAccess.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\SurveyApp\DataAccess\obj\Debug\net5.0\EcoFoods.Infrastructure.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\SurveyApp\DataAccess\obj\Debug\net5.0\EcoFoods.Infrastructure.DataAccess.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\SurveyApp\DataAccess\obj\Debug\net5.0\EcoFoods.Infrastructure.DataAccess.AssemblyInfo.cs
+C:\Users\danie\source\repos\SurveyApp\DataAccess\obj\Debug\net5.0\EcoFoods.Infrastructure.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\SurveyApp\DataAccess\bin\Debug\net5.0\EcoFoods.Infrastructure.DataAccess.deps.json
+C:\Users\danie\source\repos\SurveyApp\DataAccess\bin\Debug\net5.0\EcoFoods.Infrastructure.DataAccess.dll
+C:\Users\danie\source\repos\SurveyApp\DataAccess\bin\Debug\net5.0\ref\EcoFoods.Infrastructure.DataAccess.dll
+C:\Users\danie\source\repos\SurveyApp\DataAccess\bin\Debug\net5.0\EcoFoods.Infrastructure.DataAccess.pdb
+C:\Users\danie\source\repos\SurveyApp\DataAccess\obj\Debug\net5.0\EcoFoods.Infrastructure.DataAccess.dll
+C:\Users\danie\source\repos\SurveyApp\DataAccess\obj\Debug\net5.0\ref\EcoFoods.Infrastructure.DataAccess.dll
+C:\Users\danie\source\repos\SurveyApp\DataAccess\obj\Debug\net5.0\EcoFoods.Infrastructure.DataAccess.pdb
