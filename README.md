@@ -20,8 +20,8 @@ Database was created in visual studio
 - **Role**(custom implicit)
 
 ### Roles:<br>
-- **admin**<br>
-- **custom**
+- **Admin**<br>
+- **Customer**
 
 # What we have implemented in the app:<br>
 1)Allows viewing the added products in the store.<br><br>
@@ -29,10 +29,10 @@ Database was created in visual studio
 2)The admin cand add products in the store.<br><br>
 ![](https://files.fm/thumb_show.php?i=dn8mbvzju)<br>
 ![](https://files.fm/thumb_show.php?i=etzefwreu)<br><br>
-3)The signup and the login of the users.<br><br>
+3)The sign-up and the login of the users.<br><br>
 ![](https://files.fm/thumb_show.php?i=jfasre3sa)<br><br>
 ![](https://files.fm/thumb_show.php?i=hkay5umkr)<br><br>
-4)Only the users who signup in the webpage and are logged in can add products in the cart.
+4)Only the users who signed-up in the webpage and are logged in can add products in the cart.
 
 ## To do:<br>
-1)The posibility of the users to add items in the cart.
+1)The posibility for the users to add items in the cart.
