@@ -12,7 +12,7 @@ Database was created in visual studio
 - **Price**:Int<br> 
 - **Quantity**:Int
 
-### User table:<br>
+### Users table:<br>
 - **id**:Primary Key<br>
 - **Name**:Varchar<br>	
 - **Email**:Varchar<br>	
