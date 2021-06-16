@@ -1,9 +1,9 @@
 # EcoFoods Management App<br>
-A virtual shop wich sells bio products.
+A virtual shop used to sell bio products.
 
 
 ## Database:<br>
-Database was created in visual studio
+The database was created in Visual Studio using migrations.
 
 ### Products table:<br>	
 - **id**:Primary Key<br>
