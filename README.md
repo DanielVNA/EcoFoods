@@ -17,7 +17,7 @@ Database was created in visual studio
 - **Name**:Varchar<br>	
 - **Email**:Varchar<br>	
 - **Password**:Varchar<br>	
-- **Role**(custom implicit)
+- **Role**
 
 ### Roles:<br>
 - **Admin**<br>
@@ -26,7 +26,7 @@ Database was created in visual studio
 # What we have implemented in the app:<br>
 1)Allows viewing the added products in the store.<br><br>
 ![](https://files.fm/thumb_show.php?i=bp7ac5s3h)<br><br>
-2)The admin cand add products in the store.<br><br>
+2)The admin cand add/edit/delete products in the store.<br><br>
 ![](https://files.fm/thumb_show.php?i=dn8mbvzju)<br>
 ![](https://files.fm/thumb_show.php?i=etzefwreu)<br><br>
 3)The sign-up and the login of the users.<br><br>
