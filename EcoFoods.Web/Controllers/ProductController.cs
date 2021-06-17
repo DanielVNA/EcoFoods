@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using EcoFoods.DomainEntities;
 using EcoFoods.Infrastructure.DataAccess;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EcoFoods.Web.Controllers
 {
@@ -30,7 +29,7 @@ namespace EcoFoods.Web.Controllers
         }
 
 
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Add()
         {
 
@@ -40,6 +39,7 @@ namespace EcoFoods.Web.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Add(Product product)
         {
             if (ModelState.IsValid)
@@ -115,7 +115,7 @@ namespace EcoFoods.Web.Controllers
             List<Product> SearchResults = new();
             foreach (Product product in ProductList)
             {
-                if (product.Name.ToLower() == KeyTerm.ToLower() || product.Description.ToLower().Contains(KeyTerm.ToLower()))
+                if (product.Name.ToLower() == KeyTerm.ToLower() || (product.Description!=null && product.Description.ToLower().Contains(KeyTerm.ToLower())))
                     SearchResults.Add(product);
             }
 
