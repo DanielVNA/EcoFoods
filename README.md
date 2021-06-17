@@ -37,7 +37,7 @@ The database was created in Visual Studio using migrations.
 ## To do:<br>
 1)The posibility for the users to add items in the cart.
 
-### Contributors to this project:<br>
+### This project's contributors:<br>
 - **Voinea Daniel - [DanielVNA](https://github.com/DanielVNA)**<br>
 - **Ionita Alexandru - [IonitaA](https://github.com/IonitaA)**<br>
 - **Neculau Silviu - [silviu-neculau](https://github.com/silviu-neculau)**<br>
